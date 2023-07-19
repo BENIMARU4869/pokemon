@@ -1,0 +1,64 @@
+html {
+  display:block;
+  margin: 0px auto;
+}
+body {
+  margin: 0px auto;
+  text-align: center;
+}
+.logo img{
+  opacity: 0.5;
+  display:block;
+}
+.culture-table{
+  margin: 0px auto;
+}
+.example{
+  margin: 0px auto;
+  width: 100%;
+  height: 350px;
+  background-image: url(hokkaidou.png);
+  background-size: contain;
+}
+.dokuritu{
+  margin: 0px auto;
+  width: 450px;
+  height: 400px;
+}
+#contact > form > div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+}
+.contact-span {
+  color: #ce2222;
+  margin: 0 0 0 20px;
+  font-weight: bold;
+}
+.contact-heading {
+  width: 240px;
+  align-self: center;
+}
+.contact-textbox {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom-width: 1px;
+  border-bottom-color: #707070;
+  border-bottom-style: solid;
+  background-color: #fafafa;
+  width: 400px;
+  height: 56px;
+}
+.contact-textarea {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom-width: 1px;
+  border-bottom-color: #707070;
+  border-bottom-style: solid;
+  background-color: #fafafa;
+  width: 400px;
+  height: 200px;
+}
